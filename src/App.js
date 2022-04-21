@@ -1,46 +1,46 @@
 import PropTypes from "prop-types";
 
-function Food({name, picture, rating}) {
+function Artist({name, picture, rating}) {
   //console.log(props);
   return (
   <div>
     <h2>I like {name}</h2>
-    <h4>{rating}/5.0</h4>
+    <h4>Spotify Global Rank : {rating} over the world </h4>
     <img src={picture} alt={name}/>
-  </div> 
+  </div>
   )
 };
 
-const foodLike = [
+const artistLike = [
   {
   id: 1,
-  name: 'Kimchi',
-  image: "https://img.koreatimes.co.kr/upload/newsV2/images/202106/88dbf0524fd74259b2d00f6cd7341349.jpg/dims/resize/740/optimize",
-  rating: 5 
+  name: 'The Weeknd',
+  image: "https://www.sound-wave.co.kr/shopimages/soundwave/0020020003553.jpg",
+  rating: 3
   },
   {
     id: 2,
-    name: 'Samgyeopsal',
-    image: "https://src.hidoc.co.kr/image/lib/2021/8/27/1630049987719_0.jpg",
-    rating: 4.9
+    name: 'Giveon',
+    image: "https://i1.sndcdn.com/artworks-ObNj9Nyanm3z38i4-HXb5LQ-t500x500.jpg",
+    rating: 103
   },
   {
     id: 3,
-    name: 'Bibimbap',
-    image: "https://mblogthumb-phinf.pstatic.net/MjAxNzA0MjRfMjI3/MDAxNDkzMDIzMjc4MjU2.L-3Vv9r0XjeRGGncaB0p0II6mw9-NoBfu2k4PMCrTdgg.jP8wA64wrWrXrH3ZTP4UBCPR6ZWppqqnhXkS8FPpYMQg.JPEG.estelle926/151435979-56a57a083df78cf772888a61.jpg?type=w800",
-    rating: 4.8
+    name: 'Kanye West',
+    image: "https://variety.com/wp-content/uploads/2020/10/kanye-west.jpg?w=681&h=383&crop=1",
+    rating: 22
   },
   {
     id: 4,
-    name: 'Doncasu',
-    image: "http://th2.tmon.kr/thumbs/image/423/336/e17/1b1492318_700x700_95_FIT.jpg",
-    rating: 4.5
+    name: 'Bruno Mars',
+    image: "https://cdns-images.dzcdn.net/images/artist/7f3c0956357c326b2db2cf436f1dc8c5/500x500.jpg",
+    rating: 12
   },
   {
     id: 5,
-    name: 'Kimbap',
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGuk-uL2dPgvoGQTZQJjHPJlW_JR14RsEAqBgu7jDrT6Ky3zkEMi__imWE3TD16RzIANU&usqp=CAU",
-    rating: 5
+    name: 'Frank Ocean',
+    image: "https://i.discogs.com/PzVN9OcFAHmmgjin87jsahqFlV8nOgIqLG6hWwxtFXo/rs:fit/g:sm/q:90/h:450/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIwMTM4/NjgtMTQ5MjE4Njc4/OC0zNDc4LnBuZw.jpeg",
+    rating: 166
   }
 
 
@@ -49,15 +49,15 @@ const foodLike = [
 function App() {
   return (
   <div>
-    {foodLike.map(dish => <Food key={dish.id} name={dish.name} picture={dish.image} rating={dish.rating} />)}
+    {artistLike.map(dish => <Artist key={dish.id} name={dish.name} picture={dish.image} rating={dish.rating} />)}
   </div>
   );
 }
 
-Food.propTypes = {
+Artist.propTypes = {
   name: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
-  rating: PropTypes.number
+  rating: PropTypes.number.isRequired
 };
 
 export default App;
