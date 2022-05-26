@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frankocean3what/movie_app_20210072/static/css/main.e4337d8b.css",
+    "main.js": "/frankocean3what/movie_app_20210072/static/js/main.6394dea0.js",
+    "index.html": "/frankocean3what/movie_app_20210072/index.html",
+    "main.e4337d8b.css.map": "/frankocean3what/movie_app_20210072/static/css/main.e4337d8b.css.map",
+    "main.6394dea0.js.map": "/frankocean3what/movie_app_20210072/static/js/main.6394dea0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4337d8b.css",
+    "static/js/main.6394dea0.js"
+  ]
+}
