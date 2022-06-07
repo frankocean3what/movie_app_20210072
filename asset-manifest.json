@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/frankocean3what/movie_app_20210072/static/css/main.e4337d8b.css",
-    "main.js": "/frankocean3what/movie_app_20210072/static/js/main.640683f6.js",
-    "index.html": "/frankocean3what/movie_app_20210072/index.html",
-    "main.e4337d8b.css.map": "/frankocean3what/movie_app_20210072/static/css/main.e4337d8b.css.map",
-    "main.640683f6.js.map": "/frankocean3what/movie_app_20210072/static/js/main.640683f6.js.map"
+    "main.css": "/movieapptest/static/css/main.e1c409ed.css",
+    "main.js": "/movieapptest/static/js/main.56efa736.js",
+    "index.html": "/movieapptest/index.html",
+    "main.e1c409ed.css.map": "/movieapptest/static/css/main.e1c409ed.css.map",
+    "main.56efa736.js.map": "/movieapptest/static/js/main.56efa736.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4337d8b.css",
-    "static/js/main.640683f6.js"
+    "static/css/main.e1c409ed.css",
+    "static/js/main.56efa736.js"
   ]
 }
